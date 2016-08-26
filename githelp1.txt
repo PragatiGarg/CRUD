@@ -1,0 +1,46 @@
+# Intialise git repository
+create a local directory in your github folder
+cd directory
+git init
+
+# Tell Git who you are
+git config --global user.name PragatiGarg
+git config --global user.email pragatigarg@rocketmail.com
+
+#Favourite text editor
+git config --system core.editor start notepad++
+
+# Edit confif file
+git config --local --edit
+git config --global --edit
+
+# Add some SVN-like aliases
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.up rebase
+git config --global alias.ci commit
+
+# Add a file to the staging area
+git add githelp1.txt
+git add directory1
+
+# Commit the staged snapshot to project history
+git commit -m "1st Snap"
+
+# Check Status
+git status
+
+# Display committed snapshots
+git log
+git log -n <limit>
+git log --oneline
+git log --stat
+git log -p
+git log <since>..<until>
+git log --graph --decorate --oneline
+git log <file>
+
+
+# Checkout previous snapshots
+https://www.atlassian.com/git/tutorials/viewing-old-commits
