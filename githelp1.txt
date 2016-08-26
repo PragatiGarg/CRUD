@@ -20,3 +20,13 @@ git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.up rebase
 git config --global alias.ci commit
+
+# Add a file to the staging area
+git add githelp1.txt
+git add directory1
+
+# Commit the staged snapshot to project history
+git commit -m "1st Snap"
+
+# Check Status
+git status
