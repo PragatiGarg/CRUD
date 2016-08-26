@@ -30,3 +30,6 @@ git commit -m "1st Snap"
 
 # Check Status
 git status
+
+# Push Pull Merge
+https://www.atlassian.com/git/tutorials/syncing
