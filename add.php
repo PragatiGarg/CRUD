@@ -64,7 +64,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 
     <form action="add.php" method="post">
 	
-	<h1> EDIT</h1>
+	<h1> ADD</h1>
        <div>
             <?php if(isset($errors['user_id'])) {?>
 	<input type="text" id="user_id" name="user_id" placeholder="Error! Enter Valid user_id" >
