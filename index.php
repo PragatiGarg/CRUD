@@ -37,13 +37,14 @@
 		<td><?php echo $entry['recovery_phn']; ?></td>
 		<td><a href="edit.php?id=<?php echo $entry['id']; ?>">Edit</a> <a href="delete.php?id=<?php echo $entry['id']; ?>">Delete</a></td>
             </tr>
-	<?php } ?>		
-            <tr>
-            	<!-- <td class="create"><a href="add.php">Add New User</a></td> -->
-            </tr>
+	<?php } ?>
         </tbody>
     </table>
-</div>
+	</div>
+		<div>
+			<h2><a href="add.php">Add New User</a></h2>
+		</div>
+
 
 </body>
 </html>
